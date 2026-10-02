@@ -5,7 +5,7 @@ from telegram.constants import ChatMemberStatus
 from telegram.ext import (ApplicationBuilder, CommandHandler, MessageHandler,
                           CallbackQueryHandler, ContextTypes, filters)
 
-TOKEN = 8987059390:AAEHMllv2DWnGIzgjqyx92nMurvTc1gf0e8
+TOKEN = "8987059390:AAEHMllv2DWnGIzgjqyx92nMurvTc1gf0e8"
 ADMINS = [int(x) for x in os.getenv("ADMINS", "123456789").split(",")]
 CHANNELS = os.getenv("CHANNELS", "@kanal1,@kanal2").split(",")  # bot kanalda admin bo'lsin
 BOT_NAME = "@sizning_botingiz"
