@@ -1,6 +1,7 @@
 import telebot
 from telebot import types
-
+import os 
+from dotenv import load_dotenv
 # Bot tokenini kiriting
 API_TOKEN = '8987059390:AAEzlSM3zUxToiTpJqpuRu8dbXjlgj3WWcU'
 bot = telebot.TeleBot(API_TOKEN)
