@@ -2,7 +2,7 @@ import os, re, asyncio, sqlite3, traceback
 from yt_dlp import YoutubeDL
 from telegram import Update, InlineKeyboardButton as B, InlineKeyboardMarkup as M, ReplyKeyboardMarkup
 from telegram.constants import ChatMemberStatus
-from telegram.ext import (ApplicationBuilder, CommandHandler, MessageHandler,
+from telegram.ext import (ApplicatioBuilder, CommandHandler, MessageHandler,
                           CallbackQueryHandler, ContextTypes, filters)
 
 TOKEN = "987059390:AAH76J4n4oSmg1FgYOkEtPiWAGc_3icrQ"
