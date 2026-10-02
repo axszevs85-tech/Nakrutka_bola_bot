@@ -1,4 +1,4 @@
-import os, re, asyncio, sqlite3, traceback
+import os, re, asyncio, sqlite3, tracebac
 from yt_dlp import YoutubeDL
 from telegram import Update, InlineKeyboardButton as B, InlineKeyboardMarkup as M, ReplyKeyboardMarkup
 from telegram.constants import ChatMemberStatus
