@@ -151,4 +151,4 @@ async def button(u: Update, c: ContextTypes.DEFAULT_TYPE):
     if d == "check":
         chs = await not_joined(c.bot, uid)
         if chs:
-            return await q.answer("❌ Ha
+  return await q.answer("❌ Hali hamma kanalga a'zo bo'lmadingiz!", show_alert=True)
